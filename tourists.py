@@ -17,3 +17,5 @@ elif city.lower() == cities[1].lower():
     print(f"Турист {tourists[2]['user']['name']} возраст {tourists[2]['user']['age']}. Посетил город {tourists[2]['city']}" )      
 elif city.lower() == cities[0].lower():
     print(f"Турист {tourists[1]['user']['name']} возраст {tourists[1]['user']['age']}. Посетил город {tourists[1]['city']}" )
+else:
+    print('Город не найден')
